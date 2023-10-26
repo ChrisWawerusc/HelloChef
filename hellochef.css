@@ -1,0 +1,622 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+}
+.navbar{
+    height: 10%;
+    width: 100%;
+    background-color: white;
+}
+.page{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/images/pexels-roman-odintsov-4551832.jpg);
+    background-size: cover;
+    
+}
+.page h1{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: white;
+    margin-top: 4%;
+}
+.page p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.page button{
+    height: 10%;
+    width: 15%;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 40px;
+    border-color: red;
+}
+.list{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+
+
+.list a{
+    text-decoration: none;
+    color: black;
+}
+.list li{
+    margin: 2%;
+    margin-top: 29px;
+    font-size: 17px;
+    font-weight: 300;
+    text-decoration: none;
+    list-style: none;
+}
+.list button{
+    height: 50px;
+    width: 80px;
+    background-color: red;
+    color: white;
+    border-radius: 40px;
+    margin-top: 12px;
+}
+
+
+
+.main2{
+    height: 100vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+.main2 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30%;
+    color: rgb(76, 73, 73);
+}
+.main2 p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 10px;
+    margin-left: 15%;
+}
+.imgs{
+    background-color: white;
+    height: 27%;
+    width: 100%;
+   display: flex;
+   margin-top: 60px;
+}
+.img1{
+    height: 100%;
+    width: 20%;
+    background-image: url(/images/box_over.webp);
+    background-size: cover;
+    border-radius: 20px;
+    /* margin-left: 20px; */
+    /* background-color: black; */
+}
+.img2{
+    height: 100%;
+    width: 20%;
+    background-image: url(/images/variety-hi.webp);
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 250px;
+}
+.img3{
+    height: 100%;
+    width: 20%;
+    background-image: url(/images/salmon_katsu.webp);
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 180px;
+}
+.desc{
+    background-color: white;
+    height: 32%;
+    width: 96%;
+   display: flex;
+   margin: 10px;
+   /* margin-right: 30px; */
+}
+.list1{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400px;
+
+}
+.list2{
+    list-style: none;
+    margin-left: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400px;
+}
+.list3{
+    list-style: none;
+    margin-left: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400px;
+}
+.list1 h1{
+    margin-right: 90%;
+}
+
+
+
+.main3{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    /* margin-bottom: 90%; */
+    /* page-break-after: always; */
+}
+.container1{
+    background-image: url(/images/Family_cooking.webp);
+    height: 100%;
+    width: 50%;
+    background-size: cover;
+}
+.container2{
+    height: 100%;
+    width: 50%;
+    background-color: rgba(255,148,110,.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container2 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    font-weight: 600;
+    margin-top: 17%;
+    margin-right: 58%;
+}
+.container2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-right: 10%;
+    margin-top: 1%;
+}
+.container2 ol{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 2%;
+    margin-right: 60%;
+}
+.container2 button{
+    height: 60px;
+    width: 23%;
+    background-color: #e42a12;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    margin-right: 60%;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.main4{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+.main4 p,h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.images{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-top: 30px;
+}
+.images .image1{
+    height: 80%;
+    width: 25%;
+    background-image: url(/images/01.webp);
+    background-size: cover;
+    border: none;
+    border-radius: 10px;
+}
+.images .image2{
+    height: 80%;
+    width: 25%;
+    background-image: url(/images/02.webp);
+    background-size: cover;
+    margin-left: 60px;
+    border: none;
+    border-radius: 10px;
+}
+.images .image3{
+    height: 80%;
+    width: 25%;
+    background-image: url(/images/03.webp);
+    background-size: cover;
+    margin-left: 80px;
+    border: none;
+    border-radius: 10px;
+}
+.main4 button{
+    margin-top: 20px;
+    height: 8%;
+    width: 12%;
+    background-color: #e42a12;
+    color: white;
+    border-radius: 40px;
+    font-weight: 300;
+}
+
+
+.main5{
+    height: 90vh;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.145);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.main5 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 100;
+    /* margin-top: 1px; */
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+.main5 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 33px;
+    font-weight: 200;
+    margin-top: 40px;
+    margin-left: 150px;
+    /* margin-bottom: 90px; */
+}
+.main5 h2{
+    font-size: 33px;
+    font-weight: 200;
+    margin-top: 5px;
+    margin-left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.highlight{
+    color: #e42a12;
+}
+.main5 h4{
+    font-family: Poppins,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    margin-left: 130px;
+}
+.photos{
+    height: 40%;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.145);
+    display: flex;
+    /* margin-bottom: 80px; */
+}
+.photos .image1{
+    height: 100%;
+    width: 20%;
+    background-image: url(/images/dxblivin-credit.webp);
+    background-size: cover;
+    margin-left: 30px;
+}
+.photos .image2{
+    height: 100%;
+    width: 20%;
+    background-image: url(/images/ashley_dxb.webp);
+    background-size: cover;
+    margin-left: 80px;
+}
+.photos .image3{
+    height: 100%;
+    width: 20%;
+    background-image: url(/images/ayshasaiha.webp);
+    background-size: cover;
+    margin-left: 100px;
+}
+.photos .image4{
+    height: 100%;
+    width: 20%;
+    background-image: url(/images/shrimply);
+    background-size: cover;
+    margin-left: 86px;
+}
+
+
+.main6{
+    height: 80vh;
+    width: 100;
+    background-image: url(/images/pexels-ella-olsson-1640773.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hungry{
+    height: 50%;
+    width: 66%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    /* justify-content: center; */
+}
+.hungry h1{
+    font-family: Poppins,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #484848;
+    margin-top: 30px;
+}
+.hungry p{
+    font-family: Poppins,Helvetica,Arial,sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    color: #484848;
+    margin-top: 14px;
+}
+.cont{
+    display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.cont input{
+    height: 50px;
+    width: 350px;
+    margin-top: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    /* display: inline; */
+}
+.cont button{
+    /* display: inline; */
+    height: 50px;
+    width: 30%;
+    margin-top: 20px;
+    background-color: #e42a12;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.main7{
+    height: 70vh;
+    width: 100%;
+    background-color: #48484814;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hello{
+    height: 50%;
+    width: 96%;
+    /* background-color: #48484814; */
+    margin-top: 50px;
+    display: flex;
+}
+.box1{
+    height: 100%;
+    width: 13%;
+    /* background-color: #48484814; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 50px;
+}
+.box1 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #484848;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.box1 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: #484848;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.box1 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: #484848;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.box2{
+    height: 100%;
+    width: 13%;
+    /* background-color: #48484814; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 60px;
+}
+.box2 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #484848;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.box2 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: #484848;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.box2 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: #484848;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.box2 h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: #484848;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.box3{
+    height: 100%;
+    width: 13%;
+    /* background-color: #48484814; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 60px;
+}
+.box3 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #484848;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.box3 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: #484848;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.box3 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: #484848;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.box4{
+    height: 100%;
+    width: 20%;
+    /* background-color: #48484814; */
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-left: 60px;
+}
+.box4 h1{font-family: Arial, Helvetica, sans-serif;
+font-weight: 700;
+color: #484848;
+font-size: 16px;
+margin-top: 30px;
+}
+.box4 img{
+    height: 30%;
+    width: 40%;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+}
+.box4 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: #484848;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.box5{
+    height: 100%;
+    width: 13%;
+    /* background-color: #48484814; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 50px;
+}
+.box5 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #484848;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.box5 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: #484848;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.box5 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: #484848;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.news{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.news input{
+    height: 50px;
+    width: 350px;
+    margin-top: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.news button{
+    height: 50px;
+    width: 30%;
+    margin-top: 20px;
+    background-color: #e42a12;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
+.main7 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: #484848;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
